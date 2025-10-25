@@ -1,0 +1,33 @@
+# Terraform
+terraform/terraform.tfstate
+terraform/terraform.tfstate.backup
+terraform/.terraform/
+terraform/.terraform.lock.hcl
+*.tfplan
+
+# Local kubeconfig
+kubeconfig.yaml
+
+# Secrets / credentials
+*.pem
+*.key
+*.crt
+*.env
+
+# Helm
+helm/nginx/charts/
+helm/nginx/tmp/
+helm/nginx/.helmignore
+
+# Logs
+*.log
+*.out
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp

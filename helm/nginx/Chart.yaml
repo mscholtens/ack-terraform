@@ -1,0 +1,6 @@
+apiVersion: v2
+name: nginx
+description: A simple Helm chart to deploy Nginx Hello World
+type: application
+version: 0.1.0
+appVersion: "1.23.1"
